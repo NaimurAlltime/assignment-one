@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* style banner section */
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    width: 1600px;
+    height: 809px;  
+}
+
+
+.banner-title {
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    font-style: Bold;
+    position: absolute;
+}
+
+.banner-description {
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.button-primary {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #005FAC;
+    border: none;
+}
+.button-primary1 {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #005FAC;
+    border: none;
+    margin-top: 15px;
+}
+
+
+/* my-plans style */
+.my-plans {
+    margin-top: 130px;
+    padding: 131px 163px 0 120px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 95px;
+    margin: 0 232px;
+    margin-top: 75px;
+    align-items: center;
+}
+
+.plan-icon {
+    width: 92.96px;
+    height: 92.96px;
+    text-align: center;
+    padding-left: 35px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
