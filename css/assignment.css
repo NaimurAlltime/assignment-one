@@ -7,8 +7,11 @@
 /* style banner section */
 .banner {
     background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 1600px;
-    height: 809px;  
+    height: 809px; 
+    text-align: right; 
 }
 
 
@@ -19,8 +22,6 @@
     top: 216px;
     font-weight: 700;
     font-size: 65px;
-    line-height: 76px;
-    text-align: right;
     color: #FFFFFF;
     font-style: Bold;
     position: absolute;
@@ -34,7 +35,7 @@
     top: 468px;
     font-weight: 400;
     font-size: 16px;
-    text-align: right;
+    line-height: 26px;
     color: #FFFFFF;
 }
 
@@ -49,6 +50,7 @@
     text-align: center;
     color: #005FAC;
     border: none;
+    border-radius: 5px;
 }
 
 /* all section margin bottom */
