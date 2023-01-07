@@ -107,7 +107,7 @@ section {
     display: flex;
     margin-top: 50px;
     justify-content: space-evenly;
-    margin: 50px 75px 0;
+    margin: 50px 140px 0;
 }
 
 .plan-icon {
@@ -129,4 +129,43 @@ section {
     font-size: 25px;
     text-align: center;
     color: #737272;
+}
+
+
+/* wrist watch section style */
+.wrist-watch {
+   background-image: url('../images/watch.png'), linear-gradient(90deg, #005FAC 0%, white);
+   border-radius: 8px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-blend-mode: multiply;
+   background-size: cover;
+   margin: 0 230px;
+   width: 1140px;
+   height: 300px;
+}
+
+.watch-content {
+    padding: 60px 64px;
+}
+
+.watch-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 459px;
+    height: 94px;
+}
+
+.primary-button1 {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #005FAC;
+    border: none;
+    margin-top: 15px;
+    background: #FFFFFF;
+    border-radius: 5px;
 }
