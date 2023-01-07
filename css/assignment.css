@@ -51,26 +51,69 @@
     border: none;
 }
 
+/* all section margin bottom */
+section {
+    padding-top: 132px;
+  }
+
+  
+/* failure section style  */
+
+.failure {
+    display: flex;
+    align-items: center;
+  }
+  .person_image {
+    margin-left: 206px;
+  }
+
+  .failure_content {
+    width: 420px;
+    margin-left: 87px;
+    margin-top: 130px;
+  }
+  .failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 281px;
+    padding-bottom: 24px;
+    color: #151414;
+  }
+  .failure-description {
+    padding-bottom: 16px;
+    line-height: 26px;
+    color: #444343;
+  }
+  .failure_content ul {
+    list-style: none;
+  }
+  .failure_content ul li {
+    padding-top: 16px;
+    color: #444343;
+  }
+  .failure_content ul li i {
+    color: #16d887;
+  }
 
 /* my-plans style */
 .my-plans {
-    margin-top: 130px;
-    padding: 131px 163px 0 120px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
 }
 
 .plans-container {
     display: flex;
-    gap: 95px;
-    margin: 0 232px;
-    margin-top: 75px;
-    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin: 50px 75px 0;
 }
 
 .plan-icon {
     width: 92.96px;
     height: 92.96px;
     text-align: center;
-    padding-left: 35px;
 }
 
 .plan-title {
